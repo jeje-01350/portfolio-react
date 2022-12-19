@@ -457,6 +457,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 15px;
   letter-spacing: 0.8px;
 }
+.proj-txtx a {
+  color: #fff;
+}
+.proj-txtx a:hover {
+  color: #999999;
+}
 .background-image-right {
   top: 20%;
   position: absolute;

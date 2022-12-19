@@ -1,5 +1,5 @@
-import projImg1 from "../assets/img/project-img1.png"
-import projImg2 from "../assets/img/project-img2.png"
+import projImg1 from "../assets/img/project-img1.jpg"
+import projImg2 from "../assets/img/project-img2.jpg"
 import projImgCS from "../assets/img/project-img-cs.jpg"
 import ColorSharp2 from "../assets/img/color-sharp2.png"
 import {Col, Container, Nav, Row, Tab} from "react-bootstrap";
@@ -14,21 +14,25 @@ export const Projects = () => {
             title: "BjTechnoDev",
             desc: "Site pour ma startup",
             imgUrl: projImg1,
+            url: <a href="https://bj-technodev.fr/">Voir le site</a>
         },
         {
             title: "Plomb'elec Distribution",
             desc: "Site e-commerce pour une boutique de plomberie et électricité",
             imgUrl: projImg2,
+            url: <a href="https://www.plombelecdistribution.com/">Voir le site</a>
         },
         {
             title: "MgFast73",
             desc: "Site de reparateur de motos",
             imgUrl: projImgCS,
+            url: ""
         },
         {
             title: "L'arganier",
             desc: "Site e-commerce pour une boutique de mobilier marocains",
             imgUrl: projImgCS,
+            url: ""
         },
     ]
 
