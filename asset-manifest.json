@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-react/static/css/main.4074ad38.css",
-    "main.js": "/portfolio-react/static/js/main.f8a4b694.js",
+    "main.css": "/portfolio-react/static/css/main.8055109a.css",
+    "main.js": "/portfolio-react/static/js/main.7e5ff003.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/project-img-cs.jpg": "/portfolio-react/static/media/project-img-cs.023481dc07d54edca1c3.jpg",
     "static/media/color-sharp.png": "/portfolio-react/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -14,6 +14,7 @@
     "static/media/CentraNo2-Medium.ttf": "/portfolio-react/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio-react/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/footer-bg.png": "/portfolio-react/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/contact-img.svg": "/portfolio-react/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/revicons.eot": "/portfolio-react/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio-react/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio-react/static/media/revicons.e8746a624ed098489406.woff",
@@ -21,16 +22,15 @@
     "static/media/meter1.svg": "/portfolio-react/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/portfolio-react/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "static/media/logo.svg": "/portfolio-react/static/media/logo.eaf3c0bc058e0ed6471ba20dc0af6da2.svg",
-    "static/media/nav-icon3.svg": "/portfolio-react/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/portfolio-react/index.html",
     "static/media/nav-icon1.svg": "/portfolio-react/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolio-react/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.4074ad38.css.map": "/portfolio-react/static/css/main.4074ad38.css.map",
-    "main.f8a4b694.js.map": "/portfolio-react/static/js/main.f8a4b694.js.map",
+    "main.8055109a.css.map": "/portfolio-react/static/css/main.8055109a.css.map",
+    "main.7e5ff003.js.map": "/portfolio-react/static/js/main.7e5ff003.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4074ad38.css",
-    "static/js/main.f8a4b694.js"
+    "static/css/main.8055109a.css",
+    "static/js/main.7e5ff003.js"
   ]
 }
