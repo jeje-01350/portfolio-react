@@ -15,7 +15,7 @@ export const Contact = () => {
                     </Col>
                     <Col md={6}>
                         <h2>Contactez-moi</h2>
-                        <form>
+                        <form action="https://formspree.io/f/xzbqpeqp" method="POST">
                             <Row>
                                 <Col sm={6} className="px-1">
                                     <input type="text" placeholder="Votre Prénom" />
