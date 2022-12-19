@@ -33,7 +33,7 @@ export const Projects = () => {
     ]
 
     return(
-        <section className="project" id="project">
+        <section className="project" id="projects">
             <Container>
                 <Row>
                     <Col>
@@ -41,7 +41,7 @@ export const Projects = () => {
                             {({isVisible}) =>
                                 <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
                                     <h2>Projets</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, odit!</p>
+                                    <p>Listes de mes projets dont ceux en cours de réalisation</p>
                                 </div>}
                         </TrackVisibility>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">

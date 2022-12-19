@@ -54,8 +54,12 @@ export const Banner = () => {
                         <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                             <span className="tagline">Welcome to my Portfolio</span>
                             <h1>{`Je m'appelle Jeremy`}<span className="wrap"> {text}</span></h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, sunt.</p>
-                            <button onClick={() => console.log('connect')}>Let's connect <ArrowRightCircle size={25}/></button>
+                            <p>
+                                Actuellement en bachelor en igénieurie du web je compte 3 ans d'exoeriences dans le web. Je vous laisse a travers ce portfolio découvrir mon experience dans le domaine.
+                            <br/>
+                            Si vous souhaitez un devis contactez moi
+                            </p>
+                            <button onClick={() => console.log('connect')}><a href="#contact" className="link-a">Contactez moi <ArrowRightCircle size={25}/></a></button>
                         </div>}
                         </TrackVisibility>
                     </Col>

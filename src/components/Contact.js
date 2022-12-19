@@ -18,23 +18,23 @@ export const Contact = () => {
                         <form action="https://formspree.io/f/xzbqpeqp" method="POST">
                             <Row>
                                 <Col sm={6} className="px-1">
-                                    <input type="text" placeholder="Votre Prénom" />
+                                    <input type="text" placeholder="Votre Prénom" name="prenom" />
                                 </Col>
 
                                 <Col sm={6} className="px-1">
-                                    <input type="text" placeholder="Votre Nom" />
+                                    <input type="text" placeholder="Votre Nom" name="nom"/>
                                 </Col>
 
                                 <Col sm={6} className="px-1">
-                                    <input type="email" placeholder="Votre Email" />
+                                    <input type="email" placeholder="Votre Email" name="email"/>
                                 </Col>
 
                                 <Col sm={6} className="px-1">
-                                    <input type="tel" placeholder="Votre Téléphone"/>
+                                    <input type="tel" placeholder="Votre Téléphone" name="tel"/>
                                 </Col>
 
                                 <Col>
-                                    <textarea rows="6" placeholder="Message" ></textarea>
+                                    <textarea rows="6" placeholder="Message" name="message"></textarea>
                                     <button type="submit"><span>Envoyer</span></button>
                                 </Col>
                             </Row>
