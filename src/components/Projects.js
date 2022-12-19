@@ -4,6 +4,8 @@ import projImgCS from "../assets/img/project-img-cs.jpg"
 import ColorSharp2 from "../assets/img/color-sharp2.png"
 import {Col, Container, Nav, Row, Tab} from "react-bootstrap";
 import {ProjectCard} from "./ProjectCard";
+import 'animate.css'
+import TrackVisibility from "react-on-screen";
 
 export const Projects = () => {
 
@@ -35,9 +37,13 @@ export const Projects = () => {
             <Container>
                 <Row>
                     <Col>
-                        <h2>Projets</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, odit!</p>
-
+                        <TrackVisibility>
+                            {({isVisible}) =>
+                                <div className={isVisible ? "animate__animated animate__slideInUp" : ""}>
+                                    <h2>Projets</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, odit!</p>
+                                </div>}
+                        </TrackVisibility>
                         <Tab.Container id="projects-tabs" defaultActiveKey="first">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
