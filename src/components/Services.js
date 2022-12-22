@@ -5,7 +5,7 @@ export const Services = () => {
         <Container id="services">
             <h2 className="text-center pt-5">Services</h2>
             <p className="text-center p-serv">
-                Voici mes services proposez si vous avez une demande en particulier <a href="mailto:jeremyrossi123@gmail.com">Contactez-moi</a>
+                Voici mes services proposés si vous avez une demande en particulier <a href="mailto:jeremyrossi123@gmail.com">Contactez-moi</a>
                 <br/>
                 Le devis n'est pas facturé
             </p>

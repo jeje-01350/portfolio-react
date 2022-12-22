@@ -55,7 +55,7 @@ export const Banner = () => {
                             <span className="tagline">Welcome to my Portfolio</span>
                             <h1>{`Je m'appelle Jeremy`}<span className="wrap"> {text}</span></h1>
                             <p>
-                                Actuellement en bachelor en igénieurie du web je compte 3 ans d'exoeriences dans le web. Je vous laisse a travers ce portfolio découvrir mon experience dans le domaine.
+                                Actuellement en bachelor en Ingénierie du web j'ai 3 ans d'expériences dans le web. Je vous laisse à travers ce portfolio découvrir mon experience dans le domaine.
                             <br/>
                             Si vous souhaitez un devis contactez moi
                             </p>
