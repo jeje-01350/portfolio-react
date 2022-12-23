@@ -11,6 +11,17 @@ import {Services} from "./components/Services";
 import {Contact} from "./components/Contact";
 
 function App() {
+
+let docTitle = document.title;
+
+window.addEventListener("blur", () => {
+    document.title = "⏲ je t'attends"
+    })
+
+window.addEventListener("focus", () => {
+        document.title = docTitle
+    })
+
   return (
     <div className="App">
         <NavBar />
