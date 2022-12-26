@@ -751,6 +751,10 @@ body .container-serv .card .box .content a:hover {
   width: 56%;
 }
 
+#services .p-serv a{
+  color: #3276F5;
+}
+
 /************ contact **********************/
 .link-contact{
   color: #ffffff !important;
